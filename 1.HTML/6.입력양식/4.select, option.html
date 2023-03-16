@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select-Option</title>
+</head>
+<body>
+    <form action="#"> <!--select- option-->
+        <select name="drink">
+            <optgroup label="Coffee">
+                <option value="ame"> Americano </option>
+                <option value="esp" selected> Espresso </option><!--selected=기본값-->
+                <option value="lat"> CaffeLatte </option>
+                <option value="cap"> Cappuccino </option>
+            </optgroup>
+
+            <optgroup label="Non-Coffee">
+                <option value="ora"> OrangeJuice </option>
+                <option value="app"> AppleJuice </option>
+                <option value="gra"> GrapeJuice </option>
+            </optgroup>
+        </select>
+        <br><br><br>
+    
+        <hr><!-- datalist->input과연결 -->
+        <input type="text" list="fruits">
+        <datalist id="fruits">
+            <option> Apple </option>
+            <option> Banana </option>
+            <option> Orange </option>
+            <option> Grape </option>
+            <option> Mango </option>
+        </datalist>    
+    </form>
+</body>
+</html>

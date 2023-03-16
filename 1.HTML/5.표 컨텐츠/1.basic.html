@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasicGraph</title>
+
+    <style>
+    table{
+        border-collapse: collapse; 
+    }
+
+    </style>
+</head>
+<body>
+    
+    <!--table 태그는 표를 작성하는 태그입니다.-->
+    <table border="3">
+        <tr><!-- table의 자식태그tr은 표의 행을 나타냄, 단독사용불가(table 내에서만 사용가능)-->
+            <th>이름</th> <!--th 수정되지 않는 데이터(기준등)-> 굵은글씨로 표기 -->
+            <th>나이</th>
+            <th>성별</th>
+            <th>주소</th>
+            <td rowspan="4" align="center">
+                <button>세로버튼</button>
+            </td>
+        </tr>
+        <tr>
+            <td>김철수</td> <!-- tr의 자식태그 td는 한 행에 들어갈 열을 나태납니다.-->
+            <td>30</td>
+            <td>남자</td>
+            <td>서울특별시</td>
+        </tr>
+        <tr>
+            <td>박영희</td>
+            <td>25</td>
+            <td>여자</td>
+            <td>경기도 고양시</td>
+        </tr>
+        <tr>    <!--가로셀병합 = 열병합, align:정렬기준 -->
+            <td colspan="4" align="center">
+                 <button>가로버튼</button>
+            </td>
+        </tr>
+    
+    </table>
+
+
+</body>
+</html>
