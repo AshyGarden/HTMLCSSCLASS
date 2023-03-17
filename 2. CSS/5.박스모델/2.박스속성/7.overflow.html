@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OverFlow</title>
+    <style>
+        .parent {
+            width: 300px;
+            height: 250px;
+            border: 4px solid blue;
+            /* overflow: hidden; 넘쳐서 밑에 내용이 안보임 */
+            /* overflow: scroll; 안 넘쳐도 스크롤이있음 */
+            overflow: auto;
+        }
+
+        .child {
+            width: 100px;
+            height: 140px;
+            background: red;
+            border: 4px solid blue;
+            font-size: 40;
+        }
+
+        .tx1 {
+            border: 1px solid #777;
+            width: 300px;
+            height: 300px;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+    </div>
+
+    <hr>
+    <p class="tx1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi diam, facilisis et congue nec, ultrices sed
+        nisl. Suspendisse vel nisl odio. In hac habitasse platea dictumst. Ut scelerisque gravida sagittis. Sed tempus
+        fringilla lacus eget fringilla. Proin ut ante consequat, consequat elit vitae, porta erat. Cras sit amet
+        pellentesque nunc. Donec iaculis vulputate mollis. Nam placerat nisi eu metus ullamcorper, vitae iaculis odio
+        bibendum. In et dui aliquam, dictum mi at, condimentum eros. Aliquam condimentum, sapien a porta tempor, eros
+        enim porta tellus, vel iaculis ligula tortor vitae enim. Integer gravida ultrices elit, quis accumsan dolor
+        porta sed. Quisque rutrum bibendum orci, nec laoreet eros dignissim vitae. Integer pretium augue at elit egestas
+        malesuada ac sed felis. Nam condimentum luctus fermentum.
+
+        Pellentesque varius mauris sed dolor porta, vel aliquet sapien interdum. Vestibulum sit amet posuere justo.
+        Mauris tristique nibh rutrum, condimentum ipsum eget, tincidunt enim. Mauris ac nulla lorem. Vestibulum
+        elementum velit massa, nec hendrerit urna porta at. Nunc at orci nibh. Etiam eu orci sit amet sapien commodo
+        condimentum. Suspendisse tincidunt odio ex, id tristique magna mattis nec.
+
+        Sed tempus magna leo. Donec condimentum arcu nec justo euismod ornare. Vivamus nec nibh scelerisque, gravida
+        diam quis, rutrum nisi. Aliquam eu enim consequat, porttitor est quis, ullamcorper ex. Mauris blandit sagittis
+        condimentum. Fusce dapibus turpis eget dictum malesuada. Donec tincidunt ultricies sodales. Fusce in leo nisl.
+        Aenean semper efficitur nisi sit amet vehicula. Donec eget mi nec lacus efficitur feugiat. Praesent non ante eu
+        ligula consectetur dignissim.
+
+        Vestibulum ultricies arcu lacus, vel bibendum lacus interdum nec. Fusce eleifend ex sit amet odio dignissim, in
+        maximus elit ullamcorper. Nullam eu posuere dolor. Aliquam elementum auctor mi, ac porttitor ex accumsan mollis.
+        Etiam consectetur a lectus in imperdiet. Ut eget odio vel tellus suscipit tincidunt sit amet in eros. Integer
+        ligula libero, egestas ut nisi non, pretium suscipit dui. Morbi magna metus, porta non euismod non, consectetur
+        vitae mi. Vivamus porttitor, ex nec laoreet dictum, massa lectus interdum mi, ut consequat metus turpis nec
+        ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ut
+        sollicitudin sapien. In id arcu quis nisi suscipit eleifend. Fusce tristique fermentum nibh ut aliquet. Quisque
+        aliquam turpis metus, vitae mollis justo ornare sed. Aenean ac lacus pretium, dapibus lorem quis, aliquet est.
+
+        Vestibulum ullamcorper justo odio, ut porttitor urna hendrerit a. Donec eleifend tristique venenatis. Quisque
+        imperdiet nisl sit amet mauris fringilla, nec efficitur arcu scelerisque. Suspendisse porta varius elit, ac
+        commodo augue aliquet at. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Ut pellentesque pretium dui id vulputate. Mauris posuere euismod elit molestie bibendum. Curabitur vulputate
+        justo vitae nulla ultrices, ut malesuada nunc ultrices. Sed quam orci, tristique eu erat facilisis, faucibus
+        egestas ante. Nunc dictum et dui ac interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam vel velit
+        vitae nulla pulvinar sagittis id ac ligula. Proin dignissim dignissim urna et gravida. Proin aliquam ipsum sit
+        amet leo condimentum, ut varius dui bibendum. Etiam posuere massa eget sem tristique, nec ornare mi facilisis.
+    </p>
+</body>
+
+</html>

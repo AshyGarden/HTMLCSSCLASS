@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인접형제선택자</title>
+    
+    <!-- orange 다음의 li 요소에 실행하는 명령 -->
+    <!-- li 다음의 li 요소에 실행하는 명령(li다음li 형태라서 딸기 제외 모두 적용됨) -->
+    <style>
+        .orange +li{
+            color: yellow;
+        }
+
+        li+li{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>딸기</li>
+        <li>사과</li>
+        <li class="orange">오렌지</li>
+        <li>망고</li>
+        <li>포도</li>
+    </ul>
+    
+</body>
+</html>

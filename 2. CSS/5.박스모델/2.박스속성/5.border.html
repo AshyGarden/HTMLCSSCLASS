@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border</title>
+
+    <style>
+        p{
+            width: 400px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        .p1{/* 실선 */
+           /*  border-width: 5px;
+            border-style: solid;
+            border-color: #123456; */
+
+            
+            border-bottom: 5px solid #123456;
+            border-top: 5px solid #123456;
+        }
+
+        .p2{/* 점선 */
+            border: 5px dotted #123456;
+        }
+
+        .p3{/* 파선 */
+            border: 5px dashed #123456;
+        }
+
+        .p4{
+            border: 10px groove red;
+        }
+
+        .p5{
+            border: 10px ridge red;
+        }
+        .p6{
+            border: 10px outset #0c3;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="p1">안녕하세요. 오늘은 CSS박스속성을 공부할거에요!</p>
+    <p class="p2">안녕하세요. 오늘은 CSS박스속성을 공부할거에요!</p>
+    <p class="p3">안녕하세요. 오늘은 CSS박스속성을 공부할거에요!</p>
+    <p class="p4">안녕하세요. 오늘은 CSS박스속성을 공부할거에요!</p>
+    <p class="p5">안녕하세요. 오늘은 CSS박스속성을 공부할거에요!</p>
+    <p class="p6">안녕하세요. 오늘은 CSS박스속성을 공부할거에요!</p>
+</body>
+</html>
