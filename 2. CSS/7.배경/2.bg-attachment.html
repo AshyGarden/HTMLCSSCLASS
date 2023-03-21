@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGAttachment</title>
+    
+    <style>
+        body{
+            height: 3000px;
+        }
+
+        .box{
+            width: 90%;
+            height: 200px;
+            margin: 200px auto 0;
+            overflow: auto;
+
+            background-image: url(./images/sky.jpg);
+            background-size: 300px 200px;
+            background-repeat: no-repeat;
+            /*background-attachment: scroll; 기본값: 바깥스크롤에 의해 이미지가 움직임(안쪽스크롤은 위치변동x) */
+            /*background-attachment: fixed;  어느 특정한 위치에 고정 */
+            background-attachment: local;/* 안쪽에서 위치고정(안쪽의 스크롤에 의해서도 이미지가 움직임) */
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sem nunc, feugiat eget rutrum sit amet,
+            iaculis eu arcu. Morbi mattis orci a pulvinar commodo. Nulla vitae aliquam risus. Morbi vulputate ex quis
+            purus efficitur, et iaculis nisi suscipit. Curabitur id ligula ipsum. Nam non nibh dignissim, iaculis nibh
+            sed, accumsan mi. In lorem ante, ullamcorper nec luctus ut, iaculis a neque. Proin facilisis libero turpis.
+            Duis non efficitur massa. Mauris ultrices est eros, nec placerat sapien feugiat vitae. In egestas et elit
+            sit amet finibus. Praesent ullamcorper metus eget tempus lobortis. Proin placerat ligula eget ligula
+            posuere, eu lobortis lacus semper. Integer vitae tortor at ex volutpat pharetra nec vitae nulla. Sed non
+            risus augue. Aliquam tempus eu velit vel pulvinar.
+
+            Aenean id neque in purus ullamcorper eleifend a semper erat. Aliquam feugiat nisi sed enim blandit, vitae
+            tempus libero mollis. In id ante in ante aliquet lacinia faucibus vitae tellus. Nulla turpis diam, feugiat
+            quis pharetra eget, lobortis eu eros. Nullam eu pharetra nisl, vitae elementum mi. Maecenas nunc orci,
+            maximus et blandit vitae, blandit ut ex. Sed malesuada ipsum ante, rhoncus consequat ante pulvinar nec.
+
+            Fusce lacus felis, posuere nec sollicitudin in, dapibus id augue. Nulla facilisi. Ut maximus urna suscipit,
+            consectetur nulla vitae, cursus velit. In eget justo maximus, porta magna quis, tincidunt odio. Aenean ex
+            nisl, venenatis id metus in, tristique porttitor nulla. Curabitur sit amet fringilla orci, et placerat ante.
+            Phasellus ullamcorper sed ex eu posuere. Aenean in mauris sodales, tempus leo vel, mattis ligula. Nulla
+            pretium sollicitudin risus et tincidunt. Phasellus nec ante laoreet, blandit augue non, rhoncus massa.
+        </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>종합실습2FM</title>
+ <!-- reset css -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <style>
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
+
+        nav{
+            background: grey;
+            width: 60%;
+            padding: 15px;
+            box-sizing: border-box;/* 패딩을 줘도 박스가 터지지않게*/
+            margin: 20px auto 0;
+        }
+
+        nav ul li{
+            margin-bottom: 10px;
+            width: fit-content;/* li가 품고있는 content에 맞게끔 조절 */
+        }
+
+        nav ul li:last-child{
+            margin-bottom: 0;
+        }
+
+        nav ul li a{
+            font-size: 1.5em;
+            font-weight: bold;
+            color: white;
+            display: block;
+            padding: 15px;
+
+                      /* x축 y축 blur크기 색상 */
+            text-shadow: 5px 5px 20px white;
+        }
+
+        nav ul li a:hover{
+            color:  yellow;
+            background: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">[주문] 긴급재난지원금 줘!</a></li>
+            <li><a href="#">다슬기를 키우고싶은데</a></li>
+            <li><a href="#">달팽이가 집나감ㅅㄱ</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

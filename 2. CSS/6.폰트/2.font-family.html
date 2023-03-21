@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FontFamily</title>
+
+    <!-- (참고용url) https://velog.io/@teo/2022-CSS-Reset-%EB%8B%A4%EC%8B%9C-%EC%8D%A8%EB%B3%B4%EA%B8%B0 -->
+    <!--  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+     -->
+    <style>
+       /*  @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap'); */
+
+        @font-face{
+            font-family: 'Maplestory';
+            src: url(./Fonts/MaplestoryLight.ttf);
+
+        }
+
+        div {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        /* GoogleFont->무료/ 사제폰트=저작권 중요! */
+
+        .font1 {
+            /* serif(바탕체계열) */
+            font-family: serif;
+        }
+
+        .font2 {
+            /* snas-serif(고딕체 계열) */
+            font-family: sans-serif;
+        }
+
+        .font3 {
+            /* monospace(필기체계열)) */
+            font-family: monospace;
+        }
+
+        .font4 {
+            /* cursive(필기체(궁서체) 계열) */
+            font-family: cursive;
+        }
+
+        .font5 {
+            /* fantasy(화려한 계열) */
+            font-family: fantasy;
+        }
+
+        .font6 {
+            font-family: 'Nanum Pen Script', cursive;
+            /* font-style:;  */
+        }
+        h1{
+          /*   font-family: 'Maplestory', cursive;  또는 sans-serif/ 
+            만약 첫번째가 서체가 표현되지 않았을때 나오는 서체를 뒤에적어줌
+            font-weight: lighter;
+            font-size: 30px;
+            font-style: oblique;
+            line-height: 1.4em; */
+
+            /* font: 스타일 두께 크기 / 줄높이 글꼴 */
+            /* 속성 사용시 font-size와 font-family는 필수로 지정 */
+            font: bold 30px / 1.4 'Maplestory', sans-serif;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="font1">Hello World!</div>
+    <div class="font2">Hello World!</div>
+    <div class="font3">Hello World!</div>
+    <div class="font4">Hello World!</div>
+    <div class="font5">Hello World!</div>
+    <div class="font6">Hello World!</div>
+
+    <h1> MapleStory(망함) </h1>
+</body>
+
+</html>

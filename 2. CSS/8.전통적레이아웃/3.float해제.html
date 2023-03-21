@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloatRelease</title>
+    <style>
+        .container{
+            width: 700px;
+            padding: 20px;
+            border: 3px solid red;
+            /*overflow: hidden; 방법2 강제 인식시켜서 해제. 추천하지 않음 */
+        }
+
+        .box{
+            width: 200px;
+            height: 150px;
+            border: 3px solid green;
+            background: yellow;
+            font-size: 50px;
+            float: left;/* 자식이 float해버려서 부모가 높이를 잃어버림 */
+        }
+
+        /* .clear-box{
+            clear: both; 방법1: float후에 해제시켜주는 용도 
+        } */
+        .clearfix::after{/* (추천)방법3: 가상클래스를 추가하여 해제(명시도점수 20점) */
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container clearfix"><!-- 관례로쓰임 -->
+        <div class="box">1</div>
+        <div class="box">2</div>
+       <!--  <div class="clear-box"></div> -->
+    </div>
+
+    <div class="container clearfix">
+        <div class="box">1</div>
+        <div class="box">2</div>
+       <!--  <div class="clear-box"></div> -->
+    </div>
+</body>
+</html>
