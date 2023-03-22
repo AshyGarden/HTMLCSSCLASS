@@ -6,21 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PositionPractice2FM</title>
 
-    <style>
-  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
 
+    <style>
+        aside {
+            width: 200px;
+            position: fixed;
+            left: 70px;
+            top: 80px;
+        }
+
+        aside nav ul {
+            width: 150px;
+            margin: 10px 0;
+        }
+
+        aside nav ul li {
+            background: #123456;
+            margin: 2px 0;
+            padding: 5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        aside nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        aside nav ul li a:hover {
+            background: #456789;
+        }
+
+        .content {
+            width: 70%;
+            margin-left: 30%;
+            background: #ccc;
+            padding: 20px;
+            line-height: 1.4;
+            text-indent: 10px;
+            height: 1000px;
+        }
+
+        footer {
+            background: #000;
+            padding: 40px 20px;
+        }
+
+        footer address {
+            color: #fff;
+            font-size: 20px;
+        }
 
     </style>
+
 
 </head>
 <body>
     <aside>
         <nav>
             <ul>
-                <li><a>Company</a></li>
-                <li><a>Product</a></li>
-                <li><a>Service</a></li>
-                <li><a>Community</a></li>
+                <li><a href="#">COMPANY</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">COMMUNITY</a></li>
             </ul>
         </nav>
     </aside>
