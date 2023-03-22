@@ -1,0 +1,56 @@
+@import url(./../../Common.css);
+/* basic style */
+body{
+    background: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    font-family: '굴림',Gulim,sans-serif;
+}
+
+#wrapper{
+    width: 50%;
+    margin: 10px 0;
+}
+
+/* header style */
+header{
+    background: #123456;
+    padding: 10px;
+    color: #fff;
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #cc0;
+    text-align: center;
+    font-family: 'Maplestory', sans-serif;
+}
+
+header h1 strong{
+    font-size: 3em;
+    color: white;
+}
+
+header h1 span{
+    font-size: 1.5em;
+}
+
+header h1 em{
+    font-size: 2em;
+    color: white;
+}
+/* end header */
+/* begin container */
+.container{
+    background: #ccc;
+}
+
+.container .menu{
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+
+container. 

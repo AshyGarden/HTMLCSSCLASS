@@ -1,0 +1,83 @@
+@import url(./../../Common.css);
+@font-face{
+    font-family: 'Maplestory';
+    src: url(./Fonts/MaplestoryLight.ttf);
+}
+body{
+    background: #666;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.wrapper{
+   padding: 100px;
+}
+
+h1{
+    background: darkblue;
+    text-align: center;
+    color: yellow;
+    padding: 10px;
+}
+
+h1 strong{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+h1 span{
+    font-size: 20px;
+    font-weight: bold;
+}
+h1 em{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.menu{
+    float: left;
+    background: grey;
+    font-size: 12px;
+    width: 15%;
+    height: 280px;
+    padding: 10px 0px 0px 10px;     
+}
+
+.menu li{
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px 0 0 0;
+}
+
+.container{
+    width: auto;
+    height: 100%;
+}
+
+.wrapper .container .content{ 
+    float: left;
+    height: 95%;
+}
+
+h2{
+    font-size: 18px;
+    font-family: 'Maplestory', sans-serif;
+    color: yellow;   
+    background: red;
+    padding: 5px;
+}
+
+p{
+    font-size: 12px;
+    background:skyblue ;
+    padding: 10px 5px 10px 15px;
+}
+
+footer{
+    background: greenyellow;
+    padding: 5px;
+}
+
+footer address{
+    padding: 5px;
+    text-align: left;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasicPos</title>
+    <style>
+        .container{
+            width: 400px;
+            height: 300px;
+            border: 4px dashed lightgrey;
+            margin: 100px 0;
+        }
+        .box{
+            width: 150px;
+            height: 100px;
+            background: red;
+            border: 4px dashed orange;
+
+            /* position(기본값은 static) */
+            position: relative;/* 위치하고 있던 자리를 기준으로 */
+            left: 160px; /* (을 기준으로 이동하라)=이동이 반대로 됨 */
+            top: 100px;
+
+            /* 독립제어 박스일때 유용, 가로로 여러개 늘어서는 박스의 경우 float가 더 편함*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
