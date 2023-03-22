@@ -1,0 +1,143 @@
+@import url(../../Common.css);
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background: grey;
+}
+
+#wrapper header h1{
+    color: white;
+    background: orange;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+#wrapper header h1 span{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.stit{
+    background: rgb(200, 200, 200);
+    font-size: 12px;
+    text-align: center;
+}
+
+.contatiner{
+    height: 400px;
+}
+
+.container .side-menu{
+    width: 20%;
+    background: white;
+    float: left;
+}
+.container .side-menu h3{
+    color: white;
+    padding: 10px ;
+    font-weight: bold;
+    background: darkred;
+}
+
+.container .side-menu ul{
+    height: 600px;
+    padding-top: 10px ;
+    padding-left: 10px ;
+}
+.side-menu li{
+    padding-top: 10px ;
+}
+.side-menu li a:hover{
+    text-decoration:dotted;
+}
+
+.side-menu a{
+    text-decoration: underline;
+}
+
+/* main content */
+.main-content{
+    background: rgb(200, 200, 200);
+    height: 600px;
+}
+.main-content .art-piece a:hover{
+    text-decoration: underline;
+}
+.main-content .title{
+    width: 80%;
+    display: block;
+    line-height:normal;
+    padding: 10px auto 0px;
+    background: darkblue;
+    color: white;
+}
+
+.main-content .artist{
+    padding: 10px;
+
+}
+.main-content .detail{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.banner{
+    width: 20%;
+    height: 620px;
+    background: white;
+    position: absolute;
+    top: 182px;
+    right: 126px;
+    margin: 30px;
+    padding: 10px;
+    float: right;
+}
+
+.banner .all{
+    padding-bottom: 10px;
+    margin-top: 5px;
+    font-size: 20px; 
+    font-weight: bold;
+    text-decoration: underline;
+    color: grey;
+    display: block;
+}
+.banner .love{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: orange;
+    display: block;
+}
+.banner strong{
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    display: block;
+}
+.link a{
+    font-weight: bold;
+    text-decoration: underline;
+    display: block;
+}
+.link span{
+    display: block;
+
+    margin-bottom: 10px;
+}
+
+footer{
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    background: darkblue;
+    position: fixed;
+    bottom: 100px;
+}
